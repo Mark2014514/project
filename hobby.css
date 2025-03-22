@@ -1,0 +1,16 @@
+.hobby-list{
+    display: flex;
+    max-width:900px ;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+}
+img{
+    width: 400px;
+}
+ul{
+list-style: none;
+}
+h1{
+    text-align: center;
+}
