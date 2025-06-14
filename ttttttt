@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+        list-style: none;
+    width: 400px;
+        }
+        a{
+            text-decoration: none;
+            color: coral;
+        }
+        header{
+            background-color: aqua;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+        }
+        .ee1{
+display: flex;
+gap: 40px;
+justify-content: space-around;
+
+
+        }
+        .ee2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 1300px;
+            margin:0 auto;
+            justify-content: center;
+            gap: 40px;
+        }
+        section{
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    li{
+         list-style: none;
+    }
+    </style>
+</head>
+<body>
+   <header>
+    <ul class="ee1">
+        <li><a href="">галерея</a></li>
+        <li><a href="">факты</a></li>
+        <li><a href="">про игру </a></li>
+        <li><a href="">контакти</a></li>
+        </ul>
+   </header> 
+   <section>
+    <ul class="ee2">
+        <li ><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+        <li><img src="/depositphotos_234451670-stock-photo-neymar-brazil-greets-fans-his (1).jpg" alt=""></li>
+
+    </ul>
+   </section>
+</body>
+</html>
